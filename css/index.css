@@ -1,7 +1,7 @@
 /* Navbar */
 .navbar {
   transition: 750ms ease;
-  background: rgba(0, 0, 0, 0.349) !important;
+  background: rgba(0, 0, 0, 0.5) !important;
   box-shadow: 0 5px 20px -5px;
 }
 .navbar .navbar-nav .nav-link {
