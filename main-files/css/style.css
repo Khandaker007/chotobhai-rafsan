@@ -27,7 +27,7 @@ header,
   padding: 5px 5px;
   border-radius: 10px;
 }
-.my-nav-link::after {
+.nav-link-page::after {
   content: "";
   display: block;
   width: 0;
@@ -35,7 +35,7 @@ header,
   background: #ffef38;
   transition: width 0.3s;
 }
-.my-nav-link:hover::after {
+.nav-link-page:hover::after {
   width: 100%;
   transition: width 0.3s;
 }
@@ -47,6 +47,15 @@ header,
   background: #001446 !important;
   margin: 5px 10px;
   border-radius: 10px;
+}
+.nav-icon-facebook:hover {
+  color: #3b5998 !important;
+}
+.nav-icon-youtube:hover {
+  color: #ed302f !important;
+}
+.nav-icon-instagram:hover {
+  color: #2e81b9 !important;
 }
 
 /* Header Section */
@@ -189,6 +198,48 @@ header,
 .five {
   grid-column: 3/5;
   grid-row: 3/5;
+}
+/* FOOTER SECTION */
+.cyan.darken-3 {
+  background-color: #001446 !important;
+}
+.footer-fb-icon:hover {
+  color: #3b5998 !important;
+  transition: 0.3s ease;
+}
+.footer-tw-icon:hover {
+  color: #55acee !important;
+  transition: 0.3s ease;
+}
+.footer-gplus-icon:hover {
+  color: #dd4b39 !important;
+  transition: 0.3s ease;
+}
+.footer-insta-icon:hover {
+  color: #2e81b9 !important;
+  transition: 0.3s ease;
+}
+.footer-yt-icon:hover {
+  color: #ed302f !important;
+  transition: 0.3s ease;
+}
+.footer-pint-icon:hover {
+  color: #c61118 !important;
+  transition: 0.3s ease;
+}
+
+/* PRODUCT SECTION */
+#product-section {
+  height: 150px;
+  text-align: center;
+  font-weight: 400;
+}
+/* CONTACT SECTION */
+#contact-section {
+  background-color: #18435b;
+  text-align: center;
+  font-weight: 400;
+  height: 150px;
 }
 
 /* test perpose */
