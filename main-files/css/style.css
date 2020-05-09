@@ -16,9 +16,6 @@ header,
   text-decoration: none;
   margin: auto 1rem;
 }
-.navbar-nav .nav-link:hover {
-  color: #ffff00;
-}
 .name-logo {
   background-color: yellow;
   color: black;
@@ -26,6 +23,14 @@ header,
   margin: 0 10px;
   padding: 5px 5px;
   border-radius: 10px;
+}
+.nav-link-page {
+  color: #ffef38 !important;
+  transition: color 0.3s;
+}
+.nav-link-page:hover {
+  color: white !important;
+  transition: color 0.3s;
 }
 .nav-link-page::after {
   content: "";
@@ -40,7 +45,7 @@ header,
   transition: width 0.3s;
 }
 .bg-dark {
-  background: transparent !important;
+  background: rgba(0, 0, 0, 0.25) !important;
   transition: 0.75s ease;
 }
 .bg-dark.scrolled {
