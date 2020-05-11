@@ -1,6 +1,6 @@
 // navbar scroll change
 $(window).scroll(function () {
-  $("nav").toggleClass("scrolled", $(this).scrollTop() > 200);
+  $("nav").toggleClass("scrolled", $(this).scrollTop() > 150);
 });
 
 // Header Text pop
