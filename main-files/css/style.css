@@ -275,9 +275,6 @@ header,
 /* CONTACT SECTION */
 #contact-section {
   background-color: #18435b;
-  text-align: center;
-  font-weight: 400;
-  height: 150px;
 }
 /* FOOTER SECTION */
 .cyan.darken-3 {
@@ -285,27 +282,27 @@ header,
 }
 .footer-fb-icon:hover {
   color: #3b5998 !important;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
 }
 .footer-tw-icon:hover {
   color: #55acee !important;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
 }
 .footer-gplus-icon:hover {
   color: #dd4b39 !important;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
 }
 .footer-insta-icon:hover {
   color: #2e81b9 !important;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
 }
 .footer-yt-icon:hover {
   color: #ed302f !important;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
 }
 .footer-pint-icon:hover {
   color: #c61118 !important;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
 }
 
 /* test perpose section */
