@@ -9,6 +9,12 @@ header {
   height: 75vh;
 }
 /* PRODUCT DISPLAY SECTION */
+.product-main {
+  background-color: #275b79;
+  z-index: 1;
+  position: relative;
+  /* height: 100vh; */
+}
 .product-card {
   box-shadow: none;
   position: relative;
