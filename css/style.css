@@ -291,7 +291,7 @@ header,
     linear-gradient(90deg, rgb(252, 45, 228), rgb(120, 16, 230));
 }
 #product-section h2 {
-  color: #c5acd1;
+  color: #161616;
 }
 #product-section h2::before {
   content: "";
@@ -338,6 +338,9 @@ header,
   top: 50px;
   left: 0;
 }
+.p-description {
+  display: block;
+}
 .order-btn {
   margin-top: 80px;
 }
@@ -346,8 +349,6 @@ header,
 }
 .card:hover > .back {
   transform: perspective(600px) rotateY(0deg);
-}
-.product-row {
 }
 .product-item::after {
   content: "";

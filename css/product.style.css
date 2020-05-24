@@ -69,7 +69,6 @@ header {
     linear-gradient(90deg, rgb(252, 45, 228), rgb(120, 16, 230));
   z-index: 1;
   position: relative;
-  /* height: 100vh; */
 }
 .product-card {
   box-shadow: none;
@@ -127,7 +126,7 @@ header {
 .product-card .product-trend-label {
   content: "";
   color: white;
-  background-color: coral;
+  background-color: #5e1f80;
   font-size: 12px;
   line-height: 28px;
   font-weight: 700;
